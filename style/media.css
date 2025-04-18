@@ -1,0 +1,251 @@
+/* Desktop */
+@media (max-width: 1300px){
+    .about-left {
+        height: 300px;
+    }
+    .about-img:nth-child(1) {
+        width: 300px;
+        height: 180px;
+    }
+    .about-img:nth-child(2) {
+        width: 300px;
+        height: 180px;
+    }
+    .about-right h2 {
+        font-size: 44px;
+    }
+}
+
+
+/* Other desktop */
+@media (max-width:1050px) {
+    .about-right h2 {
+        font-size: 35px;
+    }
+    .about-left {
+        height: 250px;
+    }
+    .about-img:nth-child(1) {
+        width: 250px;
+        height: 150px;
+    }
+    .about-img:nth-child(2) {
+        width: 250px;
+        height: 150px;
+    }
+    .about-right h2 {
+        font-size: 35px;
+        line-height: 39px;
+    }
+}
+
+
+/* Tablet */
+@media (max-width:900px) {
+    .about {
+        height: 450px;
+    }
+    .about-info {
+        flex-direction: column;
+        gap: 0px;
+        padding: 12px 0;
+    }
+    .about-left {
+        height: 50%;
+    }
+    .about-right {
+        height: 50%;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .about-us span {
+        display: none;
+    }
+    .about-us h4 {
+        font-size: 16px;
+    }
+    .about-right h2 {
+        font-size: 30px;
+        margin: 0;
+    }
+    .about-right p {
+        font-size: 13px;
+        margin: 12px 0;
+    }
+
+    /* Featured */
+    .featured {
+        height: calc(2*330px + 320px);
+    }
+    .feat-cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 330px);
+    }
+}
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    /* Header */
+    .logo i {
+        font-size: 20px;
+    }
+    .logo span {
+        font-size: 20px;
+    }
+
+    /* Home */
+    .home {
+        height: 380px;
+    }
+    .home-info h1 {
+        font-size: 41px;
+        line-height: 45px;
+    }
+    .home-info p {
+        font-size: 13px;
+        margin: 4px 0;
+    }
+    .home-info button {
+        transform: scale(0.9);
+    }
+    .home-icons i{
+        font-size: 25px;
+    }
+
+
+    /* Fitnes */
+    .fitnes {
+        height: 500px;
+    }
+    .fitnes-trainer {
+        width: 100px;
+        height: 90px;
+    }
+    .fitnes-trainer h3 {
+        font-size: 25px;
+        margin-top: -10px;
+    }
+    .fitnes-trainer p {
+        line-height: 18px;
+        font-size: 14px;
+    }
+
+    .online-class {
+        width: 70px;
+        height: 90px;
+    }
+    .online-class h3 {
+        font-size: 25px;
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+    .online-class p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .gym-main {
+        width: 400px;
+        height: 450px;
+    }
+    .play {
+        bottom: -30px;
+    }
+
+
+    /* About Us */
+    .about-us h4 {
+        font-size: 14px;
+        color: var(--main-color);
+    }
+    .about-right h2 {
+        font-size: 20px;
+        margin: 0;
+    }
+    .about-right p {
+        font-size: 13px;
+        margin: 6px 0;
+        margin-bottom: 12px;
+    }
+
+    /* Featured */
+    .featured {
+        height: calc(4*330px + 320px + 3*35px);
+    }
+    .feat-cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 330px);
+    }
+    .feat-info h3 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .feat-info>p {
+        font-size: 13px;
+        line-height: 15px;
+        margin: 0;
+    }
+
+
+    /* Member */
+    .member {
+        height: calc(2*20px + 3*370px + 170px);
+        padding: 12px 0;
+    }
+    .member-cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 370px);
+    }
+    .member-card {
+        padding-top: 12px;
+    }
+}
+
+
+/* Small mobile */
+@media (max-width: 550px) {
+    /* Fitness */
+    .fitnes {
+        height: 400px;
+        padding: 22px 0;
+    }
+    .fitnes-trainer {
+        width: 80px;
+    }
+    .fitnes-trainer h3 {
+        font-size: 22px;
+    }
+    .fitnes-trainer p{
+        font-size: 13px;
+    }
+    .online-class {
+        width: 60px;
+        height: 80px;
+    }
+    .online-class h3{
+        font-size: 22px;
+    }
+    .online-class p{
+        font-size: 13px;
+    }
+    .gym-main {
+        width: 300px;
+        height: 350px;
+    }
+    .play {
+        width: 45px;
+        height: 45px;
+        bottom: -22px;
+        right: -22px;
+    }
+    .play i {
+        font-size: 22px;
+    }
+}
