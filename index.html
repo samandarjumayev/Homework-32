@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="./style/output.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/media.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/dfead5f7ee.js" crossorigin="anonymous"></script> <!-- Icons -->
     <script src="./script/app.js" defer></script>
+
 </head>
 <body>
     
@@ -110,12 +112,12 @@
         <div class="about-info container">
 
             <div class="about-left">
-                <div class="about-img">
+                <div class="about-img" data-aos="flip-left" data-aos-duration="1000">
                     <span>
                         <i class="fa-solid fa-play"></i>
                     </span>
                 </div>
-                <div class="about-img">
+                <div class="about-img" data-aos="flip-left" data-aos-duration="1000">
                     <span>
                         <i class="fa-solid fa-play"></i>
                     </span>
@@ -124,17 +126,17 @@
 
             <div class="about-right">
 
-                <div class="about-us">
+                <div class="about-us"  data-aos="fade-down-left" data-aos-duration="1000">
                     <span></span>
                     <h4>About Us</h4>
                 </div>
 
-                <h2>The Landing Gym & Fitness Training Centre.</h2>
-                <p>
+                <h2 data-aos="zoom-out-up" data-aos-duration="800">The Landing Gym & Fitness Training Centre.</h2>
+                <p data-aos="zoom-out-up" data-aos-duration="1000">
                     Welcome to our gym & fitness training centre. Sore today, strong tomorrow . Improve 
                     your fitness today. We are providing the best gym and fitness facilities.
                 </p>
-                <button class="learn-more">Learn More</button>
+                <button class="learn-more" data-aos="zoom-out-up" data-aos-duration="1000">Learn More</button>
 
             </div>
 
@@ -145,36 +147,36 @@
     <section class="featured">
         <div class="feat-info container">
 
-            <h3>Featured Training</h3>
-            <p>
+            <h3 data-aos="zoom-out-down" data-aos-duration="1000">Featured Training</h3>
+            <p data-aos="zoom-out-down" data-aos-duration="1000">
                 Welcome to our gym & fitness training centre. Sore today.
                 strong tomorrow. Imgrove your fitness today.
             </p>
 
             <div class="feat-cards">
 
-                <div class="feat-card">
+                <div class="feat-card" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-info">
                         <h4>Grit Strenth</h4>
                         <p>500 Member</p>
                     </div>
                 </div>
 
-                <div class="feat-card">
+                <div class="feat-card" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-info">
                         <h4>Grit Strenth</h4>
                         <p>500 Member</p>
                     </div>
                 </div>
 
-                <div class="feat-card">
+                <div class="feat-card" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-info">
                         <h4>Grit Strenth</h4>
                         <p>500 Member</p>
                     </div>
                 </div>
 
-                <div class="feat-card">
+                <div class="feat-card" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-info">
                         <h4>Grit Strenth</h4>
                         <p>500 Member</p>
@@ -191,15 +193,15 @@
     <section class="member">
         <div class="member-info container">
 
-            <h2>Join Our Membership</h2>
-            <p>
+            <h2 data-aos="fade-up" data-aos-duration="1000">Join Our Membership</h2>
+            <p data-aos="fade-up" data-aos-duration="1000">
                 Welcome to our gym & fitness training centre. Sore today, 
                 strong tomorrow. Improve your fitness today.
             </p>
 
             <div class="member-cards">
 
-                <div class="member-card">
+                <div class="member-card" data-aos-duration="1000" data-aos="zoom-out">
                     <div class="mem-top">
                         <h4>Weekly Plan</h4>
                         <h3>
@@ -218,7 +220,7 @@
                     <button class="learn-more">Join Now</button>
                 </div>
 
-                <div class="member-card">
+                <div class="member-card" data-aos-duration="1000" data-aos="zoom-out">
                     <div class="mem-top">
                         <h4>Weekly Plan</h4>
                         <h3>
@@ -238,7 +240,7 @@
                     <button class="learn-more">Join Now</button>
                 </div>
 
-                <div class="member-card">
+                <div class="member-card" data-aos-duration="1000" data-aos="zoom-out">
                     <div class="mem-top">
                         <h4>Weekly Plan</h4>
                         <h3>
@@ -376,6 +378,10 @@
     
     </footer>
 
-
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
